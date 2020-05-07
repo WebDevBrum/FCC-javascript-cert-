@@ -8,12 +8,15 @@ class Thermostat {
   
   return 5/9 * (this._tempF - 32);
   
+  //if F would just write return _tempF 
    //5/9 * (_tempF - 32);
   
   }
   //setter for setting temp in c
  set temperature(newTemp) {
    this._tempF = newTemp * 9.0 / 5 + 32;
+
+   //if F would just write this._tempF = newTemp;
  }
 }
 // Only change code above this line
