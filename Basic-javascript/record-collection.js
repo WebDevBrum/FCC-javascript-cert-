@@ -42,5 +42,11 @@ function updateRecords(id, prop, value) {
 }
 
 updateRecords(5439, "artist", "ABBA");
+<<<<<<< HEAD
 
 this is a trdt tedt tedt 
+=======
+console.log(123457);
+
+ghis is a test test test test
+>>>>>>> dc5047bb9bedc903665770bfbcaa221eeaa3c29a
